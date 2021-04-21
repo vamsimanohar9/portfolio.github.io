@@ -1,0 +1,267 @@
+@import url(./fonts.css);
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Original+Surfer&display=swap");
+@import url(./partials/_variables.css);
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.navbar-nav {
+  margin-left: auto;
+}
+.header_area {
+  padding-bottom: 120px;
+}
+
+/* Start Navigation */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 10rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font-size: 15px;
+  font-family: "Orelega One", cursive;
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* End Navigation */
+
+/* Start Main Area */
+
+/* banner-area */
+.site-main .site-banner {
+}
+.site-main .site-banner .site-title h3 {
+  padding-top: 250px;
+  font-family: "Orelega One", cursive;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 25px;
+  font-family: "Orelega One", cursive;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 7rem 0;
+  width: 25rem;
+}
+
+.title-text {
+  font: normal bold 50px;
+  font-family: "Orelega One", cursive;
+}
+
+.button {
+  padding: 0.8rem 2.2rem;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+
+.button.primary-button {
+  background: var(--gradient-color);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background 0.6s ease;
+}
+
+.button.primary-button:hover {
+  background: white;
+  background-clip: padding-box;
+  color: black;
+}
+
+.button.primary-button::after,
+.button.secondary-button::after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: var(--gradient-color);
+  content: "";
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.button.secondary-button {
+  background: white;
+  background-clip: padding-box;
+  transition: background 0.6s ease;
+}
+
+.button.secondary-button:hover {
+  background: var(--gradient-color);
+  color: white;
+  box-shadow: (--box-shadow);
+}
+
+/* end banner area */
+
+/* start About */
+.aboutArea {
+  padding-top: 100px;
+}
+
+.abouttext {
+  width: 200px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+/* end about */
+
+.site-main .Intro-area {
+  background-color: #7510f7;
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 500px;
+}
+.site-main .Intro-area .IntroText {
+  color: white;
+  font-family: "Orelega One", cursive;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
+.site-main .Intro-area .para {
+  font-size: 1.2rem;
+  font-family: "Noto Serif", serif;
+  padding-top: 15px;
+  color: white;
+}
+/* End Main area */
+
+/* Services Area */
+
+.site-main > .services-area .services {
+  background: white;
+  box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+  padding: 2rem 0;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+
+.site-main > .services-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.stage-one {
+  font-family: "Original Surfer", cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.stage-p {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+}
+
+.stage-two {
+  color: blueviolet;
+  font-family: "Noto Serif", serif;
+}
+.stage-q {
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+}
+#space {
+  padding-top: 47px;
+}
+#space2 {
+  padding-top: 30px;
+}
+
+#down {
+  padding-bottom: 90px;
+}
+#down2 {
+  padding-bottom: 45px;
+}
+#down1 {
+  padding-bottom: 50px;
+}
+/* Start Brand Area */
+
+.site-main .brand-area {
+  padding-left: 20rem;
+  padding-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 0.9rem 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+  width: 70%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+#redbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Orelega One", cursive;
+  padding-left: 50px;
+  border-radius: 25px;
+  background: url(../img/BG-2.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#redbox-text {
+  padding-top: 5rem;
+}
+#brand-row {
+  padding-top: 6rem;
+}
+
+#h5line {
+  line-height: 50px;
+}
+.interncolor {
+  color: yellow;
+  font-family: "Poppins", sans-serif;
+}
+.interncolor2 {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+}
+
+/* End Brand Area */
+/* End Services Area */
