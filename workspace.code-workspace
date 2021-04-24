@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\ant design\\ant-design"
+	},
+	{
+		"path": "..\\ps5"
+	},
+	{
+		"path": "..\\..\\React-AntDesign-Project-Tech-master"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "portfolio"
+  }
+}
