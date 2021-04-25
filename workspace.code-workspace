@@ -1,18 +1,21 @@
 {
   "folders": [
-	{
-		"path": "."
-	},
-	{
-		"path": "..\\ant design\\ant-design"
-	},
-	{
-		"path": "..\\ps5"
-	},
-	{
-		"path": "..\\..\\React-AntDesign-Project-Tech-master"
-	}
-],
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\ant design\\ant-design"
+    },
+    {
+      "path": "..\\ps5"
+    },
+    {
+      "path": "..\\..\\React-AntDesign-Project-Tech-master"
+    },
+    {
+      "path": "..\\..\\backup mawa"
+    }
+  ],
   "settings": {
     "liveServer.settings.multiRootWorkspaceName": "portfolio"
   }
