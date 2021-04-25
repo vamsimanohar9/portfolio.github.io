@@ -1,0 +1,26 @@
+:root {
+  --div-height: 85vh;
+  --bg-size: 100% 100%;
+}
+.center_div {
+  width: 85vw;
+  min-height: 80vh;
+  margin: 5vh auto;
+}
+
+.center_div .top_div {
+  height: 300px;
+}
+
+.center_div .bottom_first_div {
+  height: 300px;
+}
+.center_div .bottom_sec_div {
+  height: 300px;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 6px solid transparent;
+  background-clip: padding-box;
+}

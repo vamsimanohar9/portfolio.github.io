@@ -1,3 +1,9 @@
+body {
+  background-color: #cec5fa;
+  background-position: top center;
+  background-size: cover;
+}
+
 img {
   max-width: 100%;
   height: auto;
