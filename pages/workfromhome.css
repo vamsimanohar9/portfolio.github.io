@@ -1,26 +1,99 @@
+@import url(./fonts.css);
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #009ffd 0%, #2a2a72 100%);
+  border-radius: 6px;
+}
+
+body {
+  cursor: url(../img/cursor/cursor.png) 16 16, auto;
+}
+
 :root {
   --div-height: 85vh;
   --bg-size: 100% 100%;
 }
 .center_div {
   width: 85vw;
-  min-height: 80vh;
   margin: 5vh auto;
 }
 
-.center_div .top_div {
-  height: 300px;
+.img1 {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
 }
 
-.center_div .bottom_first_div {
-  height: 300px;
-}
 .center_div .bottom_sec_div {
-  height: 300px;
 }
 
 .box {
   box-sizing: border-box;
   border: 6px solid transparent;
   background-clip: padding-box;
+}
+.heading {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.headingStyle {
+  color: black;
+  font-family: "Orelega One", cursive;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.paraStyle {
+  color: black;
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+}
+
+#shadows {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.laptop {
+  max-width: 100%;
+  height: auto;
+}
+
+#wifi-icon {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.headingStyle2 {
+  font-size: 20px;
+}
+.paraStyle2 {
+  padding-top: 10px;
+  font-family: "Noto Serif", serif;
+}
+
+ul.transition {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+ul.transition li {
+  transform: scaleY(0);
+  background: white;
+  width: 20%;
 }

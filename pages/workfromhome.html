@@ -6,36 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="../pages/workfromhome.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <title>VamsiManohar | WorkFromHome</title>
   </head>
-  <body>
+  <body data-barba="wrapper">
 
-    <div class="container-fluid">
-      <div class="center_div">
+<ul class="transition">
+  
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+<header class="header_area">
+  <div class="main-menu">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="logo" href="http://vamsimanohar.tech/#Homear"><img src="../img/VM (1).png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="http://vamsimanohar.tech/#Homear">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://vamsimanohar.tech/#Aboutar">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://vamsimanohar.tech/#Skillsar">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://vamsimanohar.tech/#Portfolioar">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://vamsimanohar.tech/#Certificationar">Certifications</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+      </nav>
+  </div>
+</header>  
+
+    <main data-barba="container" data-barba-namespace="home">
+    <div class="container-fluid left">
+      <div class="center_div" id="shadows">
         <div class="row">
-          <div class="col-md-6 col-12 bottom_sec_div bg-danger box">
-            <h1>right-bottom-1</h1>
+          <div class="col-md-6 col-12 bottom_sec_div " id="first">
+            <div class="heading">
+            <h5 class="headingStyle">My Desk Setup</h5>
+            <p class="paraStyle">My desk have the all essentials for working from home</p>
+            <p class="paraStyle">A Laptop with external keyboard and mouse</p>
+            <p class="paraStyle">A 22inch Pavilion Monitor and a HD webCam</p>
           </div>
-          <div class="col-md-6 col-12 bottom_sec_div bg-primary box">
-            <h1>right-bottom-2</h1>
+          </div>
+          <div class="col-md-6 col-12 bottom_sec_div">
+            <img class="img1" src="../img/workfromHome/desk.jpeg" alt="">
           </div>
         </div>
       
     </div>
+    <div class="container-fluid">
+      <div class="center_div" id="shadows">
+        <div class="row">
+          <div class="col-md-6 col-12 bottom_sec_div " id="first">
+            <div class="heading">
+              <i class="fas fa-wifi" id="wifi-icon"></i>
+            <h5 class="headingStyle2">High Speed Internet</h5>
+            <p class="paraStyle2">100MBPS of High speed internet from Jio Fiber</p>
+            <p class="paraStyle2">Works Efficiently for video calls and Work</p>
+          </div>
+          </div>
+          <div class="col-md-6 col-12 bottom_sec_div ">
+            <img class="laptop" src="../img/workfromHome/laptop.png" alt="">
+          </div>
+        </div>
+      
+    </div>
+    </div>
+    </div>
+  </main>
+
+  <footer class="footer-area" id="bottomfoot">
+    <div class="container">
+        <div class="">
+            <div class="site-logo text-center py-4">
+                <a href="#"><img src="/img/VM (2).png" alt="logo"></a>
+            </div>
+            <div class="social text-center">
+                <h5 class="text-uppercase">Follow me</h5>
+                <a href="https://github.com/vamsimanohar9"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/itsmevamsi/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/vamsi.manohar/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/newlycharge"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="copyrights text-center">
+                <p class="para5">
+                    +91 8309201359
+                </p>
+                <p class="para5">
+                  Vamsimonohar@gmail.com
+              </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
+    <script src="/index.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     -->
+
   </body>
 </html>

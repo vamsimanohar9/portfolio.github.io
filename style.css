@@ -6,9 +6,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 /* main css portion */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #009ffd 0%, #2a2a72 100%);
+  border-radius: 6px;
+}
 
 html,
 body {
+  cursor: url(img/cursor/cursor.png) 16 16, auto;
   margin: 0%;
   box-sizing: border-box;
   width: 100%;
