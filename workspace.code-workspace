@@ -20,9 +20,15 @@
     },
     {
       "path": "..\\..\\splitbit"
+    },
+    {
+      "path": "..\\usestate function"
+    },
+    {
+      "path": "..\\..\\new"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "portfolio"
+    "liveServer.settings.multiRootWorkspaceName": "new"
   }
 }
